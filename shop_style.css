@@ -1,0 +1,171 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+    color: #393a4f;  
+    background-color: #f4f4f4 !important;
+}
+
+
+.top{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.inner_wrap{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.logo, .view, .about{
+    flex: 1;
+}
+
+.stat_block{
+    padding: 0 20px;
+}
+.logo > img{
+    height: 100px;
+    width: 100px;
+}
+.stat_number{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #393a4f;
+    line-height: 24px;
+}
+.view > h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #393a4f;
+    font-size: .9rem;
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+.stat_block.is-bordered{
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+.stat_block > span{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    color: #ABB0BE;
+    font-weight: 500;
+    font-size: .8rem;
+}
+
+.about > h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #393a4f;
+    font-size: .9rem;
+    margin-bottom: 8px;
+}
+.about .text{
+    color: #999;
+    font-size: .8rem;
+}
+
+
+.row{
+    margin-top: 20px;
+}
+
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.card-book{
+    max-height: 400px;
+   
+}
+
+.card-book img{
+    width: 50%; 
+    height: 150px;
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+.card-text{
+    padding: 0 10px 20px;
+    
+}
+
+.card-book h3{
+    line-height: 24px;
+    padding: 10px 0;
+}
+
+
+.left{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.left i{
+    color: red;
+   
+}
+
+.left span{
+    
+    color: #393a4f;
+    font-weight: 600;
+    font-size: .8rem;
+}
+ 
+.card-text h3{
+    color: #393a4f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .85rem;
+    font-weight: 600;
+}
+
+.btn{
+    background: #0062ff !important ;
+}
+
+button{
+    border-radius: 5%;
+    font-size: .8rem;
+    font-weight: 500;
+    padding: 13px 27px;
+    transition: all .3s;
+    border-width: 1px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+
+.right span{
+    color: #fff ;
+    background:#0062ff  ;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+.right i{
+    background:#0062ff ;
+    color: #fff ;
+}
+
+.product-action{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.nav.nav-tabs{
+    margin-top: 20px;
+}
